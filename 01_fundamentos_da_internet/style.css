@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+    font-family: Arial;
+    text-align: left;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    color: red;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+}
+
+a {
+    color: white;
+}
