@@ -1,3 +1,7 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 h1 {
     text-align: center;
 }
@@ -17,7 +21,7 @@ p {
     border-radius: 10px;
 }
 
-#sim{
+#sim {
     border-radius: 10px;
     background-color: aqua;
     width: 100px;
@@ -26,10 +30,10 @@ p {
     font-size: 12pt;
 }
 
-#sim:hover{
+#sim:hover {
     background-color: aliceblue;
 }
 
-#sim:active{
+#sim:active {
     background-color: crimson;
 }
