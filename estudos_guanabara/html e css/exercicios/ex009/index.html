@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+</head>
+<body>
+    <h1>Usando Links Externos</h1>
+    <p>Você pode usar o <a href="https://www.youtube.com/" target="_blank" rel="external">YouTube</a></p>
+
+<!--_blank vai abrir o link em uma nova janela em branco
+‣ _self vai abrir o link na janela ou frame atual (padrão)
+‣ _top vai desfazer todos os frames e abrir o destino no navegador completo
+‣ _parent similar ao uso do _top em uma referência à janela mãe
+‣ nome-do-frame caso esteja usando frames, indicar o nome da janela a abrir
+
+‣next indica que o link é para a próxima parte do documento atual
+‣prev indica que o link é para a parte anterior do documento atual
+‣author indica que é um link para o site do autor do artigo atual
+‣external indica que é um link para outro site que não faz parte do site atual
+‣ nofollow indica que é um link para um site não endossado, como um link pago -->
+<!--Para o site não se sobrescrever, usamos o blank para abrir em outra aba-->
+    <p>Você tambem pode usar o <a href="https://www.youtube.com/watch?v=LeOVXQDsAIY&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&index=28">Vídeo do Guanabara sobre links</a> </p>
+    <h2>Usando Links Internos</h2>
+    <p>Está é a primeira pagina, a <a href="pag.002.html" rel="next">segunda pagina</a> é está</p>
+    <p>Tambem temos nossa pagina de <a href="noticias/terceirapag.html" rel="next">Noticias</a></p>
+    <h2>Links para Downloads</h2>
+    <ul>
+        <li><a href="livro/10 - Ligações em toda parte.pdf" download="livro/10 - Ligações em toda parte.pdf" type="application/pdf">Baixar PDF</a></li>
+        <li><a href="livro/10 - Ligações em toda parte.zip" download="livro/10 - Ligações em toda parte.zip" type="application/zip">Baixar Zip</a></li>
+    </ul>
+</body>
+</html>

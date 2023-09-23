@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatações de Textos</title>
+</head>
+<body>
+    <h1>Principais Formatações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Nessa frase temos <b>um termo em negrito</b> usando a tag &lt;b&gt; que não é semantica (não tem significado)</p>
+    <p>Agora, usaremos a tag &lt;strong&gt;, e agora <strong>temos um termo em destaque</strong>!</p>
+    <!--Usamos o Strong por que dá sentido a palavra, denotando que a mesma é forte-->
+    <h2>Italico / Enfase</h2>
+    <p>Nesta frase <i>temos um termo em italico</i> usando a tag &lt;i&gt; (não semantica)</p>
+    <p>E agora usaremos a tag &lt;em&gt; <em>com uma frase em enfase</em> (semantica)</p>
+    <!--Usamos o em (emphase) por que dá sentido a palavra, denotando que a mesma esta em enfase-->
+    <h2>Texto Marcado</h2>
+    <p> Posso <mark style="background-color: rgb(0, 255, 221);">marcar um texto</mark> usando a tag &lt;mark&gt;</p> <!--Caso eu queira mudar a cor de todos, bote no head:     
+        <style>
+        mark{
+            background-color:;
+        }
+    </style>
+-->
+   <h2>Texto Grande e Pequeno</h2>
+   <p>Estamos criando um texto <big>Grande</big> usando o &lt;big&gt; <!--Big é estilo-->e um texto <small>Pequeno</small> <!--O Small é semantica--> usando a tag &lt;small&gt;</p>
+   <h2>Texto Deletado</h2>
+   <p>Marcado para um texto que deve ser lido mas não considerado <del>(like this)</del></p>
+   <h2>Texto Inserido</h2>
+   <p>Podemos marcar um texto como inserido para dar enfase e indicar que foi adicionado depois <ins>(tipo assim)</ins></p>
+   <!--A diferença entre a tag u e ins é que ins é semantica, u não!!-->
+   <h2>Sobrescrito</h2>
+   <p>Para inserir coisas do tipo 2<sup>2</sup> = 4</p>
+   <h2>Subscrito</h2>
+   <p>Para inserir coisas do tipo c6h<sub>12</sub>o<sub>6</sub> (formula molecular da glicose) </p>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinamicas</title>
+</head>
+<body>
+    <h1>Imagem Dinamica</h1>
+    <p>Aumente ou diminua o navegador ou troque de dispositivo</p>
+
+    <picture> <!--é usada para unir imgs e sources
+        Note que a tag <source> possui três atributos: 
+
+    type vai indicar o media type da imagem que usamos (veja mais informações sobre media types no capítulo 10) 
+    ‣ srcset vai configurar o nome da imagem que será carregada quando o tamanho indicado for atingido 
+    ‣ media indica o tamanho máximo a ser considerado para carregar a imagem indicada no atributo srcset. -->
+        
+        <source media="(max-width: 690px)" srcset="imagens/foto-p.png" type="image/png">
+
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+
+        <img src="imagens/foto-g.png" alt="A Imagem Flexivel Funciona">
+    </picture>
+    <h1>Vamos aprender a reproduzir audio em HTML5</h1>
+    <!--ele reconhece wav, mp3 e ogg-->
+    <audio controls preload="auto">
+        <source src="midia/giorno.mp3" type="audio/mpeg">
+        <source src="midia/giorno.wav" type="audio/wav">
+        <source src="midia/giorno.ogg" type="audio/ogg">
+        <p>Infelizmente seu navegador não consegue reproduzir audio. <a href="midia/giorno.mp3">Baixe Aqui</a></p>
+        <!--Ele está ordenado em prioridade, carregando de baixo para cima-->
+    </audio>
+    <h1>Agora veremos sobre videos</h1>
+    <!--Os formatos suportados são MP4, WEBM e OGG, mas os 
+dois primeiros são os que possuem maior compatibilidade
+com os navegadores atualmente-->
+    <video src=""></video>
+
+</body>
+</html>

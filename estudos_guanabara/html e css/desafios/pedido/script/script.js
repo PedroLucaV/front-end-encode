@@ -1,0 +1,1 @@
+window.alert("Por favor, use em tela cheia!!!")
