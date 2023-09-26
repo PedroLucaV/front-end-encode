@@ -1,3 +1,3 @@
-function enviar(arr, inp){
+function enviar(){
     return alert("Sua mensagem foi enviada")
 }
