@@ -102,5 +102,58 @@
         <li>3</li>
     </ol>
     <p>Tambem tem como modificar os estilos usando o type="", tendo estilo para a OL: I, 1, a, A; e da UL:square, disc e circle e none</p>
+
+    <h2>Tabelas</h2>
+    <p>Comecamos com a tag table que precisa ser fechada, e dentro delas precisamos das linhas e colunas, onde cada linha representa uma tag e cada coluna os dados</p>
+    <table border="2">
+        <tr> <!--TableRow, linha da tabela-->
+            <td><strong>RA</strong></td> <!--Table, Data-->
+            <td><strong>Nome</strong></td>
+            <td><strong>Idade</strong></td>
+            <td><strong>Nota</strong></td>
+        </tr>
+        <tr>
+            <td>001000</td>
+            <td>Pedro</td>
+            <td>16</td>
+            <td>10.0</td>
+        </tr>
+        <tr>
+            <td>012213</td>
+            <td>Lucas</td>
+            <td>16</td>
+            <td>08.5</td>
+        </tr>
+    </table>
+    <h2>Tabela Organizada</h2>
+    <table border="2">
+        <thead> <!--Representa o cabeçalho da tabela-->
+            <tr>
+                <td>Código</td>
+                <td>Nome Produto</td>
+                <td>Preço</td>
+            </tr>
+        </thead>
+
+        <tbody> <!--Representa o corpo da Tabela-->
+            <tr>
+                <td>01230132</td>
+                <td>Arroz</td>
+                <td>R$ 5,50</td>
+            </tr>
+            <tr>
+                <td>12319230</td>
+                <td>Feijão</td>
+                <td>R$ 6,50</td>
+            </tr>
+        </tbody>
+
+        <tfoot> <!--Representa o rodapé da Tabela-->
+            <tr>
+                <td colspan="2">Total</td> <!--Para mesclar as células, preciso fazer com que ela ocupe duas colunas, então usamos o colspan="" e botamos a quantia de colunas que ela ocupará-->
+                <td>R$ 12,00</td>
+            </tr>
+        </tfoot>
+    </table>
 </body>
 </html>
