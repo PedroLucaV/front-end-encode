@@ -1,0 +1,29 @@
+:root{
+    --bege: hsl(30, 38%, 92%);
+    --white: hsl(0, 0%, 100%);
+}
+
+body{
+    background-color: var(--bege);
+}
+
+.container{
+    width: 1440px;
+    margin: auto;
+    padding: 100px;
+}
+
+img{
+    height: 700px;
+    width: 300px;
+}
+
+.box{
+    margin-top: auto;
+    margin: auto;
+    width: 600px;
+    height: 700px;
+    border: 2px solid black;
+    background-color: var(--white);
+    border-radius: ;
+}
