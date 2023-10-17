@@ -1,0 +1,28 @@
+div{
+    border: 3px solid black;
+    width: 200px;
+    height: 200px;
+    font-size: 25px;
+    padding: 2rem 4rem;
+    margin: 0 auto;
+}
+
+h2{
+    border: 2px solid red;
+    display: inline;
+}
+
+a{
+    border: 2px solid blue;
+    display: block;
+}
+
+.box-01{
+    margin: 2rem auto;
+    display:inline-block;
+}
+
+.box-02{
+    margin: 2rem auto;
+    display:inline-block;
+}
