@@ -84,7 +84,7 @@ p{
     text-decoration: line-through;
 }
 
-.btn-buy{
+.btn{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,12 +97,12 @@ p{
     color: var(--Cream);
 }
 
-.btn-buy>p{
+.btn>p{
     color: var(--Cream);
     font-weight: 700;
 }
 
-.btn-buy:hover{
+.btn:hover{
     background-color:  hsl(158, 43%, 32%);;
 }
 
