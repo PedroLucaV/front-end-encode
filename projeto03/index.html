@@ -9,18 +9,19 @@
     <title>Verificador de Multas</title>
 </head>
 <body>
-    <label for="velocidade">Informe a Velocidade (em Km/h): </label>
-    <input type="number" name="velocidade" placeholder="exemplo: 60 km/h" id="velocidade" value="0" min="0">
-    <br>
-    <button type="submit" onclick="verificaMulta()">Verificar</button>
-
-    <hr>
-
-    <div>
-        <div>Multa:</div>
-        <br>
-        <div id="resultado">Esperando...</div>
-        <div id="valor">R$ 00,00</div>
-    </div>
+    <section>
+        <header><label for="velocidade">Informe a Velocidade (em Km/h): </label></header>
+        <main>
+            <input type="number" name="velocidade" placeholder="exemplo: 60 km/h" id="velocidade" min="0" class="vel">
+            <br>
+            <button type="submit" onclick="verificaMulta()">Verificar</button>
+        </main>
+        <footer>
+            <div class="multa">Multa:</div>
+            <br>
+            <div id="resultado" class="res">Esperando...</div>
+            <div id="valor" class="val">R$ 00,00</div>
+        </footer>
+    </section>
 </body>
 </html>
