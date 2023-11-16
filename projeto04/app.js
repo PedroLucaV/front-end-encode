@@ -4,7 +4,10 @@ const rbF = document.getElementById("sexFem")
 const inAlt = document.getElementById("alt")
 const outResp = document.getElementById("res")
 
+
 const calc = document.getElementById("calc")
+const limp = document.getElementById("limpar")
+
 calc.addEventListener('click', function(){
     let nome = inNome.value
     let masculino = rbM.checked
@@ -33,4 +36,8 @@ calc.addEventListener('click', function(){
     }
 
     outResp.innerHTML = `Olá ${nome}, com sua altura de ${altura}m, seu peso ideal é de: ${peso}kg`
+})
+
+limp.addEventListener('click', function(){
+    location.reload();  
 })
