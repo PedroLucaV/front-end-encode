@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora de Peso Ideal</h1>
+    </header>
+    <section>
+        <div>
+            <p>Nome: 
+                <input type="text" name="nome" id="nome" placeholder="Ex: José Maria">
+            </p>
+            <p>Altura: 
+                <input type="number" name="alt" id="alt" placeholder="Ex: 1.70">
+            </p>
+            <p>Sexo:
+                <input type="radio" name="sex" id="sexMasc" checked>
+                <label for="sexMasc">Masculino</label>
+                <input type="radio" name="sex" id="sexFem">
+                <label for="sexFem">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="Calcular" id="calc">
+                <input type="button" value="Limpar" onclick="limp()">
+            </p>
+        </div>
+        <div id="res">
+            Aguardando valores...
+        </div>
+    </section>
+    <footer>
+        <h3>&copy;Pedro Lucas</h3>
+    </footer>
+
+    <script src="./app.js"></script>
+</body>
+</html>
